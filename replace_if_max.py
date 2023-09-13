@@ -1,9 +1,5 @@
 #%%
-num=str(input("enter the value of num"))
-
-
-final=[]
-num_list=list(num)
+num_list=list(str(input("enter the value of num")))
 arr=[]
 for i in range(10):
     arr.append(int(input("enter arr element")))
