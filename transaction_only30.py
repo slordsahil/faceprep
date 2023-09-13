@@ -3,13 +3,13 @@ def success_or_not(N):
     wallet=0
     for i in N:  
         if i==30:
-            wallet+=30
+            wallet+=30 
         else:
             if i-30>wallet:
                 return "unsuccessful"
             else:
                 wallet-=i-30
-                wallet+=30
+                wallet+=30 
     return "successful"
 # n=int(input("total customers"))
 # a=[]
