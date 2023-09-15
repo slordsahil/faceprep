@@ -5,8 +5,8 @@ while N!=0:
     if N==1:
         count+=1
         break
-    for i in range(2,N+1):
-        if i==N:
+    for i in range(N-1,0,-1):
+        if i==1:
             N-=1
             count+=1
             break
@@ -15,6 +15,7 @@ while N!=0:
             N-=a
             count+=1
             break
+    
         
 print(count)
         
